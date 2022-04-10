@@ -11,6 +11,7 @@ function Section3() {
         <div className="sec-3-spanned-text-1">LES</div>
         <div className="sec-3-spanned-text-2">ARTICLES</div>
       </div>
+      
       <div className="sec-3-bottom-div">
         {allTheArticles.map((eachArticle) => (
           <div className="sec-3-articles-div">
@@ -23,7 +24,10 @@ function Section3() {
                 </span>
               </li>
             </div>
-            <p className='text-xs'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, quis quaerat quam ipsam corporis voluptatum  dicta ex, eos minus </p>
+            <p className="text-xs">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit,
+              quis quaerat quam ipsam corporis voluptatum dicta ex, eos minus{" "}
+            </p>
           </div>
         ))}
       </div>

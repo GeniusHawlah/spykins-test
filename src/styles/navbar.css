@@ -3,23 +3,21 @@
 @tailwind utilities;
 
 .whole-nav {
-    @apply flex  pt-6
+  @apply flex  pt-6;
 }
 
 .left-div {
-@apply flex items-center space-x-2  w-1/2 pl-[10%]
+  @apply flex items-center space-x-2  w-1/2 pl-[10%];
 }
 
 .right-div {
-    @apply flex justify-end items-center space-x-4 w-1/2 pr-[10%]
-   }
+  @apply flex justify-end items-center space-x-4 w-1/2 pr-[10%];
+}
 
 .nav-logo {
-@apply h-[11px] w-[11px] 
+  @apply h-[11px] w-[11px];
 }
 
 .links {
-    @apply flex space-x-2 text-xs font-thin
+  @apply flex space-x-2 text-xs font-thin;
 }
-
-

@@ -12,8 +12,15 @@ function Navbar() {
         </div> 
         <div>BARBE &amp; CIMON NOTATIRES</div>
       </div>
+
       <div className="right-div">
-        <ul className='links'> <li>A PROPOSE</li><li>NOS SERVICES</li><li>ARTICLES</li><li>CONTACT</li> </ul> <span className='font-bold'>EN</span>
+        <ul className='links'>
+          <li>A PROPOSE</li>
+          <li>NOS SERVICES</li>
+          <li>ARTICLES</li>
+          <li>CONTACT</li>
+        
+        </ul> <span className='font-semibold text-xs'>EN</span>
       </div>
     </nav>
   );

@@ -2,36 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .section-2 {
-@apply bg-transparent mt-10
+  @apply bg-transparent mt-10;
 }
 
 .sec2-top-div {
-    @apply text-blue-800 pl-[10%] flex-col -space-y-1 mb-6
-
+  @apply text-blue-800 pl-[10%] flex-col -space-y-1 mb-6;
 }
 
 .sec-2-top-text-1 {
-    @apply text-sm  
+  @apply text-sm;
 }
 
 .sec-2-top-text-2 {
-    @apply text-4xl
+  @apply text-4xl;
 }
 
 .sec-2-bottom-div {
-    @apply flex pl-[1%] space-x-3 justify-center
+  @apply flex pl-[1%] space-x-3 justify-center;
 }
 
 .bottom-div-1 {
-    @apply w-[25%] flex justify-center bg-blue-800  rounded-md py-8 px-3 text-center  text-white  items-center  text-3xl
+  @apply w-[25%] flex justify-center bg-blue-800  rounded-md py-8 px-3 text-center  text-white  items-center  text-3xl;
 }
 
 .bottom-div-2 {
-    @apply w-[25%] items-center flex justify-center bg-[#78350f] rounded-md py-8 px-3 text-center text-white text-3xl
+  @apply w-[25%] items-center flex justify-center bg-[#78350f] rounded-md py-8 px-3 text-center text-white text-3xl;
 }
 
 .bottom-div-3 {
-    @apply w-[25%] flex justify-center bg-[#7f1d1d] rounded-md py-8 px-3 text-center text-white items-center text-3xl
+  @apply w-[25%] flex justify-center bg-[#7f1d1d] rounded-md py-8 px-3 text-center text-white items-center text-3xl;
 }

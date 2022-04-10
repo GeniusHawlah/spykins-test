@@ -8,6 +8,7 @@ function Section2() {
         <div className="sec-2-top-text-1">NOS</div>
         <div className="sec-2-top-text-2">SERVICES</div>
       </div>
+      
       <div className="sec-2-bottom-div">
         <div className="bottom-div-1">COPROPRIÉTÉ ›</div>
         <div className="bottom-div-2">PLANIFICATION FAMILIALÉ ›</div>

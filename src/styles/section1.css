@@ -2,48 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .section-1 {
-@apply  justify-center 
+  @apply justify-center;
 }
 
 .top-div {
-    @apply flex bg-gradient-to-b  from-transparent to-[#fecdcd] items-center 
+  @apply flex bg-gradient-to-b  from-transparent to-[#fecdcd] items-center;
 }
 
 .top-left {
-    @apply w-1/2 
+  @apply w-1/2;
 }
 
 .div-in-top-left {
-    @apply  bg-transparent pl-[20%]
+  @apply bg-transparent pl-[20%];
 }
 
 .top-right {
-    @apply w-1/2
+  @apply w-1/2;
 }
 
 .bottom-div {
-    @apply bg-transparent
+  @apply bg-transparent;
 }
 
 .pen-img {
-    @apply w-full
+  @apply w-full;
 }
 
 .house-img {
-    @apply  w-full 
+  @apply w-full;
 }
 
 .first-span {
-    @apply text-xs text-[#bd2929]
+  @apply text-xs text-[#bd2929];
 }
 
 .second-span {
-    @apply text-3xl text-[#bd2929]
+  @apply text-3xl text-[#bd2929];
 }
 
 .btn {
-    @apply px-7 py-1 text-[#bd2929] border-solid bg-transparent border-[#fbb1b1] rounded-md border-2
-
+  @apply px-7 py-1 text-[#bd2929] border-solid bg-transparent border-[#fbb1b1] rounded-md border-2;
 }

@@ -2,27 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.footer{
-@apply flex my-10 items-center justify-center 
+.footer {
+  @apply flex my-10 items-center justify-center;
 }
 
 .footer-first-div {
-    @apply w-1/2  flex space-x-1 ml-[10%]
+  @apply w-1/2  flex space-x-1 ml-[10%];
 }
 
 .footer-second-div {
-    @apply  flex 
+  @apply flex;
 }
 
 .footer-logo {
-    @apply h-[11px] w-[11px] 
-    }
+  @apply h-[11px] w-[11px];
+}
 
 .footer-list-1 {
-    @apply space-y-4 
+  @apply space-y-4;
 }
 
 .footer-list-2 {
-    @apply space-y-4  w-1/2
+  @apply space-y-4  w-1/2;
 }
